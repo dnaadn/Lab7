@@ -7,8 +7,8 @@ This is a simple Learning Management System (LMS) REST API built with Spring Boo
 
 The system manages two core resources:
 
-Course — represents a course with an id, title, description, level (Beginner/Intermediate/Advanced), capacity, and number of registered students.
-Assignment — represents an assignment tied to a course via courseId, with a due date, submission date, and status (Not Started / In Progress / Submitted).
+- Course — represents a course with an id, title, description, level (Beginner/Intermediate/Advanced), capacity, and number of registered students.
+- Assignment — represents an assignment tied to a course via courseId, with a due date, submission date, and status (Not Started / In Progress / Submitted).
 
 **Key features:**
 
