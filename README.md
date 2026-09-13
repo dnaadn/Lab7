@@ -12,9 +12,9 @@ Assignment — represents an assignment tied to a course via courseId, with a du
 
 **Key features:**
 
-Full CRUD operations for both Course and Assignment
-Student registration for a course, with capacity enforcement
-Assignment submission logic that blocks re-submission and rejects late submissions past the due date
-Search endpoints — courses by level, assignments by status
-Request validation using Jakarta Bean Validation (@NotBlank, @Min/@Max, @Pattern, etc.), with custom error messages returned on invalid input
-Lombok (@Data, @AllArgsConstructor) to reduce boilerplate in the model classes
+- Full CRUD operations for both Course and Assignment
+- Student registration for a course, with capacity enforcement
+- Assignment submission logic that blocks re-submission and rejects late submissions past the due date
+- Search endpoints — courses by level, assignments by status
+- Request validation using Jakarta Bean Validation (@NotBlank, @Min/@Max, @Pattern, etc.), with custom error messages returned on invalid input
+- Lombok (@Data, @AllArgsConstructor) to reduce boilerplate in the model classes
